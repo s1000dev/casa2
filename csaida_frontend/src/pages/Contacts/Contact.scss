@@ -1,0 +1,36 @@
+.contacts{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    padding: 20px;
+    background: rgb(101, 81, 72, 0.8);
+}
+
+/* квадрат над картой с инф */
+.body__map{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+    margin-top: 100px;
+}
+
+body{
+    background-color: #000000;
+    
+}
+
+select {
+    appearance: none;
+    outline: none;
+}
+
+input {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    color: #E3CFB4;
+}
+

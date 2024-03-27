@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto';
+//   -webkit-font-smoothing: antialiased;
+//   -moz-osx-font-smoothing: grayscale;
+  background-color: #725E49 !important;
+}
+
+.posts{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 50px;
+  flex-wrap: wrap;
+}

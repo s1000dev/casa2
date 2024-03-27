@@ -1,0 +1,89 @@
+.root {
+  background-color: #544036;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.15px;
+  padding: 0;
+  cursor: pointer;
+
+  img {
+	max-width: 140px;
+  }
+  
+}
+
+.shopimg {
+	display: inline-block;
+  color: #fff;
+  padding: 0px 0px 0px 0px;
+  cursor: pointer;
+
+  img {
+	max-width: 60px;
+  }
+}
+
+.buttons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+  button { 
+    font-size: 15px; 
+    color: #fff; 
+    background-color: #725E49; 
+    border: none; 
+    outline: #544036;
+    outline-width: 1px;
+    border-radius: 15px; 
+    cursor: pointer; 
+    box-shadow: 0 16px 36px rgba(84 64 54 / 22%);
+    padding: 15px;
+  }
+
+  a {
+  text-decoration: none;
+  color: #544036;
+  }
+
+  button:hover{
+    background-color: #E3CFB4; 
+    box-shadow: 0 16px 36px rgba(84 64 54 / 22%);
+    color:  rgba(84 64 54 / 22%);
+    transition: background-color, color 0.2s;
+  }
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #E3CFB4;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #725E49;
+}
